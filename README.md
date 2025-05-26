@@ -159,19 +159,8 @@ footer .social-links a:hover {
     <div class="container">
       <p>© 2025 Your Company. All rights reserved.</p>
       <div class="social-links">
-        <a href="mailto:your-email@example.com">📧 your-email@example.com</a>
+        <a href="mailto:your-email@example.com">📧 tusharsarang222@gmail.com</a>
         <a href="#">📍 Kolkata</a>
       </div>
     </div>
   </footer>
-
-  <!-- Mobile Nav Script -->
-  <script>
-    const toggle = document.getElementById("menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
-    toggle.addEventListener("click", () => {
-      navLinks.classList.toggle("active");
-    });
-  </script>
-</body>
-</html>
