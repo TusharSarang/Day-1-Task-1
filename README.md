@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Landing Page</title>
+          Responsive Landing Page
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
@@ -31,8 +31,8 @@
   <section class="hero">
     <div class="container">
       <h1>Welcome to Our Website</h1>
-      <p>Your journey to awesome web experiences starts here.</p>
-      <a href="#" class="btn">Get Started</a>
+      <p>This is the starting landing page of our website.</p>
+      <a href="#" class="btn">Let's Get Started</a>
     </div>
   </section>
 
@@ -41,8 +41,8 @@
     <div class="container">
       <p>© 2025 Your Company. All rights reserved.</p>
       <div class="social-links">
-        <a href="mailto:your-email@example.com">📧 your-email@example.com</a>
-        <a href="#">📍 Kolkata</a>
+        <a href="mailto: 📧 tusharsarang222@gmail.com </a>
+        <a href="#">📍 Kolkata </a>
       </div>
     </div>
   </footer>
