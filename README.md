@@ -39,41 +39,12 @@
     <div class="container">
       <p>© 2025 Your Company. All rights reserved.</p>
       <div class="social-links">
-        <a href="#">🌐email/gmail</a>
-        <a href="#">🐦google</a>
-        <a href="#">📘facebook</a>
+        <a href="#">🌐 Email = tusharsarang222@gmail.com</a>
+        <a href="#">🐦 Location = Kolkata </a>
+        <a href="#">📘 Facebook = Tushar_Sarang </a>
       </div>
     </div>
   </footer>
-
-  <script>
-    // Toggle for mobile menu
-    const toggle = document.getElementById("menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
-    toggle.addEventListener("click", () => {
-      navLinks.classList.toggle("active");
-    });
-  </script>
-</body>
-</html>
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
-}
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 20px;
-}
 
 /* Header */
 header {
