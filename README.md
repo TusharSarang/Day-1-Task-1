@@ -19,8 +19,8 @@
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Contact/help</a></li>
         </ul>
         <div class="menu-toggle" id="menu-toggle">&#9776;</div>
       </nav>
@@ -30,7 +30,7 @@
   <section class="hero">
     <div class="container hero-content">
       <h1>Welcome to Our Website</h1>
-      <p>Your journey to awesome web experiences starts here. Let's build something great together.</p>
+      <p>This is the responsive landing page,tried to add the navigation buttons too.</p>
       <a href="#" class="btn">Get Started</a>
     </div>
   </section>
@@ -39,9 +39,9 @@
     <div class="container">
       <p>© 2025 Your Company. All rights reserved.</p>
       <div class="social-links">
-        <a href="#">🌐</a>
-        <a href="#">🐦</a>
-        <a href="#">📘</a>
+        <a href="#">🌐email/gmail</a>
+        <a href="#">🐦google</a>
+        <a href="#">📘facebook</a>
       </div>
     </div>
   </footer>
