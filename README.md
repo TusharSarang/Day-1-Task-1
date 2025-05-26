@@ -2,11 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Responsive Landing Page</title>
-  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    header {
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+    }
+    .logo img {
+      height: 40px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+    .menu-toggle {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .hero {
+      background: #007bff;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+    }
+    .btn {
+      padding: 12px 25px;
+      background: #fff;
+      color: #007bff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #f2f2f2;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    footer .social-links a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    footer .social-links a:hover {
+      color: #007bff;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        display: none;
+        border: 1px solid #ddd;
+      }
+      nav ul.active {
+        display: flex;
+      }
+      .menu-toggle {
+        display: block;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
   <!-- Header -->
@@ -41,7 +157,7 @@
     <div class="container">
       <p>© 2025 Your Company. All rights reserved.</p>
       <div class="social-links">
-        <a href="mailto:your-email@example.com">📧 your-email@example.com</a>
+        <a href="mailto:tusharsarang222@gmail.com">📧 tusharsarang222@gmail.com</a>
         <a href="#">📍 Kolkata</a>
       </div>
     </div>
@@ -55,125 +171,6 @@
       navLinks.classList.toggle("active");
     });
   </script>
+
 </body>
 </html>
-
-<!-- CSS -->
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #f9f9f9;
-  color: #333;
-}
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 20px;
-}
-
-/* Header */
-header {
-  background: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
-}
-.logo img {
-  height: 40px;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-nav a:hover {
-  color: #007bff;
-}
-.menu-toggle {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-/* Hero */
-.hero {
-  background: #007bff;
-  color: #fff;
-  padding: 100px 20px;
-  text-align: center;
-}
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
-}
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-}
-.btn {
-  padding: 12px 25px;
-  background: #fff;
-  color: #007bff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: background 0.3s;
-}
-.btn:hover {
-  background: #f2f2f2;
-}
-
-/* Footer */
-footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-footer .social-links a {
-  color: #fff;
-  margin: 0 10px;
-  font-size: 14px;
-  text-decoration: none;
-}
-footer .social-links a:hover {
-  color: #007bff;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    background: #fff;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    display: none;
-    border: 1px solid #ddd;
-  }
-  nav ul.active {
-    display: flex;
-  }
-  .menu-toggle {
-    display: block;
-  }
-}
